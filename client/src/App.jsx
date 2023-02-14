@@ -26,7 +26,7 @@ function App() {
     // console.log({question})
     setLoading(true);
     axios
-      .post("http://localhost:3000/chat", {
+      .post("https://chatbot-server-ohtt.onrender.com/chat", {
         question,
       })
       .then((response) => {

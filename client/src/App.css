@@ -3,8 +3,7 @@
   font-family: 'Poppins', sans-serif;
 }
 body{
-  background-color: #f5f5f5;
-  
+  background-color: #d0d0d0;
 }
 .chat-input {
   display: flex;
@@ -29,24 +28,17 @@ body{
 }
 
 .container {
-  /* margin-left: 50%; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 90vh;
-  width: 100%;
+  width: 80%;
   border: 1px solid rgb(124, 124, 124);
   box-shadow: 10px 10px 5px rgb(157, 157, 157);
   padding: 0.5rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  background-color: rgb(255, 255, 255);
-  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("assets/pic1.png");
-   background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-  /* opacity: 0.2; */
-  z-index: 1000;
+  background-color: white;
 }
 
 .chats {
