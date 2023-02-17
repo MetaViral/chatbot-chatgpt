@@ -57,7 +57,7 @@ function App() {
       </div> */}
       <div class="container">
         <div>
-          <h2>ChatBot</h2>
+          <h2>MetaViral ChatBot</h2>
           {/* <img
           src={webLogo}
           alt=""
