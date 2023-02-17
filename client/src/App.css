@@ -5,6 +5,10 @@
 body{
   background-color: #d0d0d0;
 }
+
+h2{
+  color: #335eea;
+}
 .chat-input {
   display: flex;
 }
