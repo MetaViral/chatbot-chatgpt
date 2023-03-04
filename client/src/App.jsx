@@ -24,9 +24,10 @@ function App() {
     updateQna(YOU, question);
     // setQna([...qna, { from: YOU, value: question }]);
     // console.log({question})
+    // https://chatbot-server-ohtt.onrender.com/chat
     setLoading(true);
     axios
-      .post("https://chatbot-server-ohtt.onrender.com/chat", {
+      .post("http://localhost:3000/chat", {
         question,
       })
       .then((response) => {
@@ -78,7 +79,9 @@ function App() {
               return (
                 <div class="recieve chat">
                   <img src={chatLogo} alt="" class="avtar" />
+                  <pre>
                   <p>{renderContent(qna)}</p>
+                </pre>
                 </div>
               );
             })}
